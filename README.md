@@ -25,7 +25,7 @@ Write the following functions in the index.js file.
 renderBook()
 This function accepts a book object in the format described above.
 Create and return the HTML to render a single book. The HTML for a single book should look like this:
-
+/*
 <div class="book">
   <div class="details">
     <div class="title">
@@ -41,7 +41,8 @@ Create and return the HTML to render a single book. The HTML for a single book s
   </div>
   <div class="quantity">2 @ $182.65</div>
   <div class="price">$365.30</div>
-</div>
+</div> 
+*/
 calculateTotal()
 Calculate and return the total price of all items in the cart. The function should return 0 when the cart is empty and should also consider the quantity for multiple items.
 
